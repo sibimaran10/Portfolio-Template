@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Template</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b743839787.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+     <!-- Header -->
+     <header>
+        <div class="container"> 
+           <nav class="navbar">
+                <div class="logo">
+                    <img src="./img/blank-profile-picture-g3337ceabd_1280.png" alt="">
+                </div>
+              <a href="#" class="nav-branding">JOHN DOE</a>
+              <ul class="nav-menu">
+                 <li class="nav-item">
+                    <a href="#" class="nav-link">Home</a>
+                 </li>
+                 <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                 </li>
+                 <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                 </li>
+                 <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                 </li>
+              </ul>
+              <div class="hamburger">
+                 <span class="bar"></span>
+                 <span class="bar"></span>
+                 <span class="bar"></span>
+              </div>
+           </nav>
+        </div>
+     </header>
+
+    <!-- Intro Section -->
+    <section class="main">
+        <div class="main-content">
+            <h3>Hey, I'm JOHN DOE</h3>
+            <div class="main-content-info">
+                <p class="sub-contemt-desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt, ratione!</p>
+                <p class="sub-content-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, nihil! Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="btn">
+                <button type="button" class="button"><a href="#project">PROJECTS</a></button>
+            </div>
+        </div>
+        </div>
+
+    <!-- About Me Section -->
+    <section class="about-section" id="about">
+        <div class="main-container">
+            <h2>About me</h2>
+            <p class="about-me-info">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam, corporis?<br>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <div class="about-content">
+                <div class="about-content-main">
+                    <h3>Know about me!</h3>
+                        <div class="about-content-para">
+                           <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit iste accusamus vitae eum exercitationem!</p>
+                           <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque sapiente cum saepe deserunt incidunt.</p>
+                           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero saepe debitis suscipit?</p>
+                        </div>
+                        <button class="button" id="contact-me"><a href="#contact">CONTACT</a></button>
+                </div>
+            <div class="about-content-skills">
+                <h3 class="about-content-title">My Skills</h3>
+                <div class="about-skills">
+                    <div class="skills">skill-1</div>
+                    <div class="skills">skill-2</div>
+                    <div class="skills">skill-3</div>
+                    <div class="skills">skill-4</div>
+                    <div class="skills">skill-5</div>
+                    <div class="skills">skill-6</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <div class="project-section" id="projects">
+        <div class="project-container">
+            <h2>PROJECTS</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod unde inventore perspiciatis officia quia, illum nihil ducimus? Quod.</p>
+        </div>
+        <div class="project-list">
+            <div class="project">
+                <img src="img/dopefolio.jpg" alt="">
+                <div class="project-desc">
+                    <h3>Project 1</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem similique necessitatibus blanditiis perferendis fuga incidunt praesentium ipsam! Dolores accusamus autem temporibus nobis expedita aperiam.</p>
+                    <button class="button"><a href="https://sibimaran10.github.io/Airbnb-clone/">LINK</a></button>
+                </div>
+            </div>
+        </div>
+            <div class="project">
+                <img src="img/dopefolio.jpg" alt="">
+                <div class="project-desc">
+                    <h3>Project 2</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, voluptatibus nihil. Maxime similique voluptates distinctio vero debitis. Fuga autem eligendi maiores laborum! Velit, soluta!</p>
+                    <button class="button"><a href="https://sibimaran10.github.io/my-ecomm/">LINK</a></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Contact Me Section -->
+
+    <section class="contact-section" id="contact">
+        <div class="contact-container">
+            <h2>CONTACT</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis distinctio reiciendis nostrum, voluptatum obcaecati necessitatibus adipisci.</p>
+        </div>
+
+        <div class="contact-me">
+            <form action="#" class="contact-me-form" method="post">
+                <input type="hidden" name="form-name" id="" value="1">
+                <div class="contact-me-fields">
+                    <label for="name" class="contact-me-label">Name</label>
+                    <input class="contact-form-input" type="text" name="name" id="name" required placeholder="Enter Your Name">
+                </div>
+                <div class="contact-me-fields">
+                    <label for="email" class="contact-me-label">Email</label>
+                    <input class="contact-form-input" type="email" name="email" id="email" required placeholder="Enter Your Mail Id">
+                </div>
+                <div class="contact-me-fields">
+                    <label for="message" class="contact-me-label">Message</label>
+                    <textarea class="contact-form-input" type="text-area" name="message" id="message" required cols="30" rows="10" placeholder="Enter Your Message"></textarea>
+                </div>
+                <button class="button" id="form-submit-btn">SUBMIT</button>
+            </form>
+        </div>
+
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-section">
+            <div class="social-links">
+                <div><a href=""><i class="fa-brands fa-github"></i></i></a></div>
+                <div><a href=""><i class="fa-brands fa-linkedin"></i></a></div>
+                <div><a href=""><i class="fa-brands fa-facebook"></i></a></div>
+                <div><a href=""><i class="fa-brands fa-twitter"></i></a></div>
+                <div><a href=""><i class="fa-brands fa-instagram"></i></a></div>
+            </div>
+            <div class="footer-nav">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="sub-footer">
+                <p>© Copyright 2023. Made by Sibimaran T</p>
+            </div>
+    </div>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
